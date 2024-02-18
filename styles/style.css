@@ -1,0 +1,157 @@
+header {
+    width: 81%;
+    max-width: 1170px;
+    margin: 50px auto 100px;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+nav .logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo h2 {
+    color: var(--primary);
+    font-size: 36px;
+    font-weight: 800;
+}
+nav>ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav>ul li {
+    list-style: none;
+    margin-left: 40px;
+}
+
+nav>ul li a {
+    text-decoration: none;
+    color: #424247;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.header-container {
+    height: 500px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../images/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 16px;
+}
+.hede {
+    padding: 100px 180px;
+}
+
+.hede h1 {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+}
+.hede h2 {
+    color: #0fbc3d;
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.hede p {
+    color: #e7dfdf;
+    text-align: center;
+    margin: 25px 0px 50px;
+}
+.hede button{
+   color: black;
+   background-color: green;
+   border-radius: 5px;
+   padding: 10px;
+}
+main {
+    width: 81%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.hsd{
+    text-align: center;
+    font-size: 36px;
+    color: black;
+}
+.logos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: 1px solid green;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #e0e6e2;
+}
+.main{
+    display: flex;
+    background-color: darkorange;
+    padding: 10px;
+    gap: 50px;
+    margin: 50px;
+   padding-left: 20px;
+   border-radius: 10px;
+   
+}
+.mains{
+    background-color: blueviolet;
+    display: flex;
+ border-radius: 10px;
+    padding: 10px;
+    gap: 50px;
+   margin: 50px;
+   padding-left: 20px;
+   padding-right: 20px;
+  
+}
+.hjf{
+    text-align: center;
+    justify-content: center;
+    font-size: 29px;
+    color: green;
+    border: 2px solid green;
+    border-radius: 5px;
+    padding: 10px;
+   
+}
+.logoss{
+    display: flex;
+    gap: 10px;
+     border: 1px solid rgb(227, 217, 217);
+     padding: 10px;
+     border-radius: 5px;
+}
+.jjjj{
+    display: flex;
+}
+.logdikk{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 15px;
+}
+
+.logosdd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+   
+}
+.sjadk{
+    font-size: 30px;
+}
